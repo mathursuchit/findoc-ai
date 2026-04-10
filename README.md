@@ -2,7 +2,7 @@
 
 A RAG-based chatbot for querying financial documents. Upload SEC 10-K filings, earnings reports, or annual reports and ask questions in plain English.
 
-**Live demo:** [findoc-ai.streamlit.app](https://findoc-ai.streamlit.app) ← update this after deploying
+**Live demo:** [mathursuchit-findoc-ai.streamlit.app](https://mathursuchit-findoc-ai.streamlit.app)
 
 ---
 
