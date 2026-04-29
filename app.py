@@ -26,8 +26,8 @@ EXAMPLE_QUESTIONS = [
     "What is the company's outlook for next year?",
 ]
 
-st.set_page_config(page_title="FinDoc AI", page_icon="📊", layout="wide")
-st.title("📊 FinDoc AI — Financial Document Analyst")
+st.set_page_config(page_title="FinDoc AI", page_icon=None, layout="wide")
+st.title("FinDoc AI — Financial Document Analyst")
 st.caption("Upload SEC filings, earnings reports, or annual reports and chat with them.")
 
 # init session state keys if they don't exist yet
@@ -94,7 +94,7 @@ def build_chain(retriever, llm):
 
 
 with st.sidebar:
-    st.header("📁 Documents")
+    st.header("Documents")
     uploaded_files = st.file_uploader(
         "Upload financial PDFs",
         type=["pdf"],
